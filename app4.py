@@ -37,3 +37,4 @@ print(response['choices'][0]['message']['content'])     #Respuesta del OpenAI
 file_name = "DatosCorreo"
 with open(file_name, 'w') as json_file:
     json.dump(response['choices'][0]['message']['content'], json_file)
+
